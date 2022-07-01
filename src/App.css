@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.main-header {
+  background-color: black;
+  color: white;
+  padding: 20px 10px 10px 10px;
+  font-size: 26px;
+}
+
+.input-container {
+  padding: 15px;
+  background-color: black;
+  color: white;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 25px;
+}
+
+.album-name-heading {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.images-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.img-btn-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 8px;
+  padding: 5px;
+}
+
+.img {
+  width: 170px;
+  height: 120px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.delete-btn-hidden {
+  width: 160px;
+  align-self: center;
+  border: 1px, solid, gray;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  visibility: hidden;
+
+}
+
+.delete-btn-visible {
+  width: 160px;
+  align-self: center;
+  border: 1px, solid, gray;
+  border-radius: 5px;
+  visibility: visible;
+}
+
+
+
+
+
